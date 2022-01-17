@@ -15,10 +15,10 @@ class MainLayoutPage extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            CustomAppMenu(),
-            Spacer(),
+            const CustomAppMenu(),
+            const Spacer(),
             Expanded(child: child),
-            Spacer()
+            const Spacer()
           ],
         )
       ),

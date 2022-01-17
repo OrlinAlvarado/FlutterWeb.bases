@@ -13,7 +13,7 @@ class Page404 extends StatelessWidget {
           children: [
             const Text('404', style: TextStyle( fontSize: 40, fontWeight: FontWeight.bold),),
             const SizedBox( height: 10,),
-            const Text('No se encontro la pagina', style: const TextStyle( fontSize: 40),),
+            const Text('No se encontro la pagina', style: TextStyle( fontSize: 40),),
             CustomFlatButton(
               text: 'Regresar', 
               onPressed: () => Navigator.pushNamed(context, '/stateful')
